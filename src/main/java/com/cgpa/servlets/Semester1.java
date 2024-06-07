@@ -22,7 +22,7 @@ public class Semester1 extends HttpServlet{
 	
 	public void doGet(HttpServletRequest req,HttpServletResponse res) throws IOException, ServletException {
 		
-		rd =req.getRequestDispatcher("/JSP_Files/Semester-1.jsp");
+		rd =req.getRequestDispatcher("/webapp/JSP_Files/Semester-1.jsp");
 		rd.forward(req, res);
 			
 	}
